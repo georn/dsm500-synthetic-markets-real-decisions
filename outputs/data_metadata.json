@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-09-21T08:53:33.740311",
+  "config": {
+    "era_a_start": "2018-01-01",
+    "era_a_end": "2021-12-31",
+    "era_b_start": "2022-01-01",
+    "era_b_end": "2024-12-31",
+    "window_length_hourly": 256,
+    "window_stride_hourly": 24,
+    "window_length_daily": 256,
+    "window_stride_daily": 1
+  },
+  "data_summary": {
+    "EUR=X": {
+      "window_length": 256,
+      "stride": 1,
+      "era_a_windows": 788,
+      "era_b_windows": 526
+    },
+    "SPY": {
+      "window_length": 256,
+      "stride": 1,
+      "era_a_windows": 752,
+      "era_b_windows": 497
+    },
+    "^FTSE": {
+      "window_length": 256,
+      "stride": 1,
+      "era_a_windows": 756,
+      "era_b_windows": 499
+    }
+  },
+  "era_a_shape": [
+    2296,
+    770
+  ],
+  "era_b_shape": [
+    1522,
+    770
+  ]
+}

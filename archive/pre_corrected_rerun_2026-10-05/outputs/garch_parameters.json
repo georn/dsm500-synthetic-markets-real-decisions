@@ -1,0 +1,11 @@
+{
+  "model": "GARCH(1,1)",
+  "omega": 4.8e-05,
+  "alpha": 0.0792,
+  "beta": 0.9087,
+  "persistence": 0.9879,
+  "half_life_days": 35,
+  "data_period": "ERA-A (2018-2021)",
+  "asset": "USD/EUR",
+  "notes": "Parameters estimated on 256-day rolling windows; typical for FX"
+}

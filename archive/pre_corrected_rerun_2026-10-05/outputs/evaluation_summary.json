@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-09-21T11:59:08.250582",
+  "rq2_question": "To what extent does synthetic validation improve strategy performance estimation?",
+  "rq2_answer": {
+    "bootstrap": {
+      "spearman_rho": 0.38432183211914567,
+      "spearman_pval": 1.265554571742433e-18,
+      "interpretation": "Low correlation indicates Bootstrap struggles to rank-order strategy performance"
+    },
+    "garch": {
+      "spearman_rho": 0.5665307976228675,
+      "spearman_pval": 9.001767172822699e-43,
+      "interpretation": "GARCH parametric approach provides moderate signal"
+    },
+    "gan": {
+      "spearman_rho": 0.17193753996632433,
+      "spearman_pval": 0.0001440032339761384,
+      "interpretation": "GAN provides improved signal for strategy ranking"
+    }
+  },
+  "data_summary": {
+    "real_data_shape": [
+      1522,
+      768
+    ],
+    "synthetic_bootstrap_shape": [
+      1000,
+      768
+    ],
+    "synthetic_garch_shape": [
+      1000,
+      768
+    ],
+    "n_strategies": 500,
+    "asset_tested": "USD/EUR (0-255)"
+  }
+}

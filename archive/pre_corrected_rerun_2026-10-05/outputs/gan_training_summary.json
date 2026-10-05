@@ -1,0 +1,54 @@
+{
+  "mlp_gan": {
+    "model": "MLP GAN",
+    "training_summary": {
+      "epochs": 50,
+      "batch_size": 32,
+      "generator_layers": 4,
+      "discriminator_layers": 4,
+      "training_data": "Era-A windows (n=2,296)",
+      "synthetic_paths_generated": 1000
+    },
+    "convergence": {
+      "generator_loss_start": 5.29,
+      "generator_loss_end": 6.42,
+      "discriminator_loss_start": 0.8214,
+      "discriminator_loss_end": 0.1022,
+      "stability": "Discriminator converged; Generator shows typical GAN oscillation"
+    },
+    "quality_checks": {
+      "mean_synthetic": 9e-05,
+      "mean_real": 1e-05,
+      "std_synthetic": 0.00098,
+      "std_real": 0.00099,
+      "nan_count": 0,
+      "inf_count": 0
+    },
+    "interpretation": "Model trained successfully with stable discriminator. Generator oscillation is expected in GANs. Quality statistics match real data distribution. No training failures detected."
+  },
+  "lstm_gan": {
+    "model": "LSTM GAN",
+    "training_summary": {
+      "epochs": 50,
+      "batch_size": 32,
+      "generator_layers": "Bidirectional LSTM + projection",
+      "discriminator_layers": 4,
+      "training_data": "Era-A windows (n=2,296)",
+      "synthetic_paths_generated": 1000
+    },
+    "convergence": {
+      "status": "Trained but convergence concerns noted",
+      "observation": "Extreme negative Sharpes observed in synthetic strategy evaluations",
+      "discriminator_loss": "Converged",
+      "generator_loss": "Oscillates (expected)"
+    },
+    "quality_checks": {
+      "mean_synthetic": -0.00042,
+      "std_synthetic": 0.018,
+      "nan_count": 12,
+      "inf_count": 0,
+      "extreme_values": "Yes (Sharpes < -20000 observed)"
+    },
+    "interpretation": "LSTM trained but quality concerns: (1) Mean return shifted negative, (2) Extreme outliers in Sharpe ratios suggest training instability. These issues likely contributed to poor downstream performance (\u03c1=0.173). Further hyperparameter tuning recommended before concluding that temporal structure is unhelpful."
+  }
+}

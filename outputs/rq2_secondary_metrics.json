@@ -1,0 +1,46 @@
+{
+  "GARCH": {
+    "spearman_rho": 0.5665307976228675,
+    "fdr": 0.0,
+    "n_endorsed": 4,
+    "n_actually_work": 4,
+    "optimism_mean": -0.24492542202305137,
+    "optimism_sd": 0.5432308749690008,
+    "selection_regret": 0.0,
+    "best_strategy_sharpe": 2.2923743163193033,
+    "oracle_sharpe": 2.2923743163193033
+  },
+  "Bootstrap": {
+    "spearman_rho": 0.38432183211914567,
+    "fdr": 0.0,
+    "n_endorsed": 4,
+    "n_actually_work": 4,
+    "optimism_mean": -0.04569418438818087,
+    "optimism_sd": 0.5940965731282652,
+    "selection_regret": 0.0,
+    "best_strategy_sharpe": 2.2923743163193033,
+    "oracle_sharpe": 2.2923743163193033
+  },
+  "MLP_GAN": {
+    "spearman_rho": 0.17193753996632433,
+    "fdr": 0.0,
+    "n_endorsed": 4,
+    "n_actually_work": 4,
+    "optimism_mean": -0.0594064500962462,
+    "optimism_sd": 0.9163510252315297,
+    "selection_regret": 0.0,
+    "best_strategy_sharpe": 2.2923743163193033,
+    "oracle_sharpe": 2.2923743163193033
+  },
+  "LSTM_GAN": {
+    "spearman_rho": 0.17296617606022802,
+    "fdr": 0.9595959595959596,
+    "n_endorsed": 99,
+    "n_actually_work": 4,
+    "optimism_mean": -554478108851.0575,
+    "optimism_sd": 1941220383648.9155,
+    "selection_regret": 3.485034520672569,
+    "best_strategy_sharpe": -1.1926602043532653,
+    "oracle_sharpe": 2.2923743163193033
+  }
+}

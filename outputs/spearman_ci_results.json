@@ -1,0 +1,34 @@
+[
+  {
+    "method": "GARCH",
+    "rho": 0.5665,
+    "ci_lower": 0.5,
+    "ci_upper": 0.62,
+    "pval": 9.001767172822699e-43,
+    "se": 0.0456
+  },
+  {
+    "method": "Bootstrap",
+    "rho": 0.3843,
+    "ci_lower": 0.31,
+    "ci_upper": 0.46,
+    "pval": 1.265554571742433e-18,
+    "se": 0.0456
+  },
+  {
+    "method": "MLP GAN",
+    "rho": 0.1719,
+    "ci_lower": 0.08,
+    "ci_upper": 0.26,
+    "pval": 0.0001440032339761384,
+    "se": 0.0456
+  },
+  {
+    "method": "LSTM GAN",
+    "rho": 0.173,
+    "ci_lower": 0.09,
+    "ci_upper": 0.26,
+    "pval": 0.00013115574380520857,
+    "se": 0.0456
+  }
+]

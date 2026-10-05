@@ -1,0 +1,1 @@
+Snapshot of files immediately before promotion of the corrected evaluation. Superseded numerical findings must not be used with the submitted corrected report. Frozen data and saved GAN checkpoint hashes were verified unchanged.

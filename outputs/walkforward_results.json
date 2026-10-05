@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-10-05T10:29:29.821909",
+  "method": "Spearman rho between era-A (in-sample) and era-B (out-of-sample) mean Sharpe, USD/EUR",
+  "era_a_windows": 788,
+  "era_b_windows": 526,
+  "spearman_rho": -0.2860706619481463,
+  "spearman_pval": 1.2078990756999143e-10,
+  "kendall_tau": -0.1864057411496478,
+  "kendall_pval": 1.0143076334422881e-09,
+  "pearson_r": -0.264526129738149,
+  "pearson_pval": 2.945177594914699e-09,
+  "n_strategies": 488.0
+}

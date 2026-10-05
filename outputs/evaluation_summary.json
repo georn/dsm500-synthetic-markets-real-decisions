@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-10-05T10:37:07.715813",
+  "rq2_question": "To what extent does synthetic validation improve strategy performance estimation?",
+  "rq2_answer": {
+    "bootstrap": {
+      "spearman_rho": -0.3064347378502176,
+      "spearman_pval": 4.543571174358165e-12,
+      "interpretation": "Signed validation-to-real rank agreement; interpret with confidence intervals and paired comparisons"
+    },
+    "garch": {
+      "spearman_rho": 0.04139520818752195,
+      "spearman_pval": 0.3615076225816181,
+      "interpretation": "Signed validation-to-real rank agreement; interpret with confidence intervals and paired comparisons"
+    },
+    "gan": {
+      "spearman_rho": -0.02018356872941975,
+      "spearman_pval": 0.657812405875294,
+      "interpretation": "Signed validation-to-real rank agreement; interpret with confidence intervals and paired comparisons"
+    }
+  },
+  "data_summary": {
+    "real_data_shape": [
+      526,
+      256
+    ],
+    "synthetic_bootstrap_shape": [
+      1000,
+      256
+    ],
+    "synthetic_garch_shape": [
+      1000,
+      256
+    ],
+    "n_strategies": 500,
+    "asset_tested": "USD/EUR (EUR=X rows only)"
+  }
+}

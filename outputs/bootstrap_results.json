@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-22",
+  "purpose": "Bootstrap resampling validation of Spearman \u03c1 CIs (Tier 2 analysis)",
+  "n_strategies": 181,
+  "n_bootstrap_resamples": 1000,
+  "original_rho": {
+    "garch": 0.5074110052010604,
+    "bootstrap": 0.292410904013114,
+    "gan": 0.1876935219476656
+  },
+  "bootstrap_ci": {
+    "garch": {
+      "median": 0.5059275899054905,
+      "mean": 0.5057204784166108,
+      "std": 0.06297994714195557,
+      "ci_lower": 0.3779997166737498,
+      "ci_upper": 0.626897779936454,
+      "n_valid": 1000
+    },
+    "bootstrap": {
+      "median": 0.29289053487948513,
+      "mean": 0.29035060409204067,
+      "std": 0.07751144058713207,
+      "ci_lower": 0.14039827575739178,
+      "ci_upper": 0.43728978204116326,
+      "n_valid": 1000
+    },
+    "gan": {
+      "median": 0.188096249974703,
+      "mean": 0.18756965778236487,
+      "std": 0.08031508411141637,
+      "ci_lower": 0.031153744965899663,
+      "ci_upper": 0.33831178030073056,
+      "n_valid": 1000
+    }
+  },
+  "fisher_z_ci": {
+    "garch": {
+      "rho": 0.5074110052010604,
+      "ci_lower": 0.39044813156209507,
+      "ci_upper": 0.6082538245350307
+    },
+    "bootstrap": {
+      "rho": 0.292410904013114,
+      "ci_lower": 0.153079528148995,
+      "ci_upper": 0.42034317260278353
+    },
+    "gan": {
+      "rho": 0.1876935219476656,
+      "ci_lower": 0.043010629241306074,
+      "ci_upper": 0.32466553379551155
+    }
+  },
+  "interpretation": {
+    "garch_vs_gan_overlap": false,
+    "garch_ci_width": 0.2488980632627042,
+    "gan_ci_width": 0.3071580353348309,
+    "stability_ratio": 1.2340716167430965
+  }
+}

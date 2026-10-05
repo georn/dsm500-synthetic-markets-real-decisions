@@ -1,0 +1,7 @@
+# Notebook execution and PDF export (adds to requirements.txt)
+# After install: .venv/bin/python -m playwright install chromium
+-r requirements.txt
+ipykernel==7.4.0
+nbconvert==7.17.1
+playwright==1.63.0
+jupytext==1.19.6

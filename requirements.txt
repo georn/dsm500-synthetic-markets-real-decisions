@@ -1,0 +1,13 @@
+# Python 3.11.7. Pinned to the versions installed in the project .venv on 2026-10-05.
+# Install: python3.11 -m venv .venv && .venv/bin/pip install -r requirements.txt
+numpy==2.4.6
+pandas==3.0.6
+scipy==1.17.1
+torch==2.14.0
+matplotlib==3.11.2
+pyarrow==25.0.1
+yfinance==1.7.0
+ccxt==4.5.81
+requests==2.34.2
+python-dotenv==1.2.3
+pytest==9.1.1

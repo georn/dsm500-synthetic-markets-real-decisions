@@ -1,0 +1,62 @@
+{
+  "USD/EUR": {
+    "era_a": {
+      "n": 1043,
+      "mean_daily_pct": 0.005589989724151371,
+      "annualised_vol_pct": 6.399291746274127,
+      "skewness": 0.36929399893838816,
+      "excess_kurtosis": 2.907945300364882,
+      "max_drawdown_pct": -13.64353217619908,
+      "acf_squared_lag1": 0.03477171821474344
+    },
+    "era_b": {
+      "n": 781,
+      "mean_daily_pct": 0.010549112822447129,
+      "annualised_vol_pct": 7.87353305857292,
+      "skewness": 0.005566057377288584,
+      "excess_kurtosis": 1.1552269475914088,
+      "max_drawdown_pct": -14.606369016384967,
+      "acf_squared_lag1": 0.10137145413434855
+    }
+  },
+  "SPY": {
+    "era_a": {
+      "n": 1007,
+      "mean_daily_pct": 0.06342544612094424,
+      "annualised_vol_pct": 20.91632131385466,
+      "skewness": -1.0512694645764182,
+      "excess_kurtosis": 15.868316856279499,
+      "max_drawdown_pct": -33.717273705917364,
+      "acf_squared_lag1": 0.4866472439024774
+    },
+    "era_b": {
+      "n": 752,
+      "mean_daily_pct": 0.034281072688271554,
+      "annualised_vol_pct": 17.510297561408432,
+      "skewness": -0.22698175423119263,
+      "excess_kurtosis": 1.7921194132405862,
+      "max_drawdown_pct": -24.496395660090563,
+      "acf_squared_lag1": 0.09967802080914877
+    }
+  },
+  "FTSE 100": {
+    "era_a": {
+      "n": 1011,
+      "mean_daily_pct": -0.0034692438043417186,
+      "annualised_vol_pct": 18.273516755196788,
+      "skewness": -1.2169965643046725,
+      "excess_kurtosis": 16.429852901072568,
+      "max_drawdown_pct": -36.60552329617591,
+      "acf_squared_lag1": 0.14544086391441072
+    },
+    "era_b": {
+      "n": 754,
+      "mean_daily_pct": 0.012608765307167872,
+      "annualised_vol_pct": 12.794984147652391,
+      "skewness": -0.4543914289702132,
+      "excess_kurtosis": 3.508534622693153,
+      "max_drawdown_pct": -11.029139745084926,
+      "acf_squared_lag1": 0.23453223583294616
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-09-22T16:14:04.636044",
+  "model_type": "LSTM GAN",
+  "rq2_question": "RQ2 - LSTM: Spearman rank-correlation between LSTM synthetic and real Sharpe ratios",
+  "rq2_answer_lstm": {
+    "spearman_rho": 0.38206960439093124,
+    "spearman_pval": 2.8647830607829197e-18,
+    "kendall_tau": 0.27238075854848337,
+    "n_strategies": 484
+  },
+  "comparison_note": "Compare this \u03c1 value to evaluation_summary.json (MLP \u03c1) per protocol in drafts/draft_gan_comparison_protocol.md"
+}

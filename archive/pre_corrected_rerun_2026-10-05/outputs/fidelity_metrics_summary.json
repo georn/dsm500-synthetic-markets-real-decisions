@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-09-21T11:12:01.581094",
+  "real_data_shape": [
+    2296,
+    768
+  ],
+  "baselines_evaluated": [
+    "Bootstrap",
+    "GARCH"
+  ],
+  "metrics": [
+    {
+      "method": "Bootstrap",
+      "autocorr_returns_mean": -0.0017717620141426125,
+      "autocorr_returns_synthetic": -0.0017755325434585813,
+      "autocorr_squared_mean": 0.21915906511752734,
+      "autocorr_squared_synthetic": 0.21897411342134881,
+      "skewness_real": -1.2323662416769199,
+      "skewness_synthetic": -1.222762430922222,
+      "kurtosis_real": 22.43092452427207,
+      "kurtosis_synthetic": 21.98748437567233,
+      "wasserstein_distance": NaN
+    },
+    {
+      "method": "GARCH",
+      "autocorr_returns_mean": -0.0017717620141426125,
+      "autocorr_returns_synthetic": NaN,
+      "autocorr_squared_mean": 0.21915906511752734,
+      "autocorr_squared_synthetic": NaN,
+      "skewness_real": -1.2323662416769199,
+      "skewness_synthetic": NaN,
+      "kurtosis_real": 22.43092452427207,
+      "kurtosis_synthetic": NaN,
+      "wasserstein_distance": NaN
+    }
+  ]
+}

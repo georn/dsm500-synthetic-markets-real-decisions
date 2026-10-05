@@ -1,0 +1,11 @@
+{
+  "method": "variance targeting; alpha and beta fixed",
+  "asset": "USD/EUR",
+  "omega": 1.6250370973782617e-07,
+  "alpha": 0.05,
+  "beta": 0.94,
+  "mean_daily_return": 5.589989724151371e-05,
+  "daily_std": 0.004031174887521329,
+  "persistence": 0.99,
+  "half_life_days": 68.96756393652842
+}

@@ -1,0 +1,73 @@
+{
+  "generated_at": "2026-10-05T10:39:28.143025",
+  "asset": "USD/EUR",
+  "statistics": "per-window means over 256-day windows",
+  "metrics": [
+    {
+      "source": "Real era-A USD/EUR",
+      "acf_returns_lags1_20": -0.011807820312685955,
+      "acf_squared_lag1": 0.02090599929796215,
+      "acf_squared_lags1_20": 0.027461556938861088,
+      "excess_kurtosis": 2.480515132593199,
+      "skewness": 0.3232747642575392,
+      "daily_std": 0.003978523759860465,
+      "n_windows": 788,
+      "wasserstein_vs_real": 0.0
+    },
+    {
+      "source": "Window bootstrap",
+      "acf_returns_lags1_20": -0.011643850587101698,
+      "acf_squared_lag1": 0.021294872460408107,
+      "acf_squared_lags1_20": 0.027489804701039223,
+      "excess_kurtosis": 2.4692473801391652,
+      "skewness": 0.3313252992819034,
+      "daily_std": 0.003988850468475366,
+      "n_windows": 788,
+      "wasserstein_vs_real": 8.207853939754183e-06
+    },
+    {
+      "source": "Stationary bootstrap",
+      "acf_returns_lags1_20": -0.007997876800221015,
+      "acf_squared_lag1": 0.028005104669794365,
+      "acf_squared_lags1_20": 0.018110848051978604,
+      "excess_kurtosis": 2.0450960645364487,
+      "skewness": 0.2980745242547037,
+      "daily_std": 0.004003627073744581,
+      "n_windows": 788,
+      "wasserstein_vs_real": 6.323887765289473e-05
+    },
+    {
+      "source": "GARCH(1,1)",
+      "acf_returns_lags1_20": -0.003642695834048014,
+      "acf_squared_lag1": 0.05642371831040838,
+      "acf_squared_lags1_20": 0.0407403196799395,
+      "excess_kurtosis": 0.10694354661478091,
+      "skewness": -0.0035723499597914324,
+      "daily_std": 0.003957594730423598,
+      "n_windows": 788,
+      "wasserstein_vs_real": 0.00019141487140764813
+    },
+    {
+      "source": "MLP GAN",
+      "acf_returns_lags1_20": -0.0025294299749003576,
+      "acf_squared_lag1": 0.024218419509476678,
+      "acf_squared_lags1_20": -0.013706713112230198,
+      "excess_kurtosis": -0.44494310571339135,
+      "skewness": -2.703207697377269e-05,
+      "daily_std": 0.0008979395457583679,
+      "n_windows": 788,
+      "wasserstein_vs_real": 0.00228599165771931
+    },
+    {
+      "source": "LSTM GAN",
+      "acf_returns_lags1_20": 0.35611910458323676,
+      "acf_squared_lag1": 0.12169950985681856,
+      "acf_squared_lags1_20": 0.3512645107766476,
+      "excess_kurtosis": 44.46521253932383,
+      "skewness": -4.231267488290083,
+      "daily_std": 0.0025096871273064198,
+      "n_windows": 788,
+      "wasserstein_vs_real": 0.001017204679766077
+    }
+  ]
+}

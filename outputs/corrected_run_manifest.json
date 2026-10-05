@@ -1,0 +1,49 @@
+{
+  "created_at_utc": "2026-10-05T09:26:38.274198+00:00",
+  "source_repository": "/Users/geor/workspace/uni/MSc-DataScience-AI/april-2026/DSM500-FinalProject/DSM500-CW2-Report/attempt-01",
+  "configuration": "corrected backtester; saved pooled GAN checkpoints; frozen USD/EUR returns",
+  "inputs": {
+    "windowed_data_era_a.parquet": "5987ffb8cf0bcbf2b386fa3dd4098323cf33368543567e0c36ab9287af053adb",
+    "windowed_data_era_b.parquet": "342c28b24dbc7d5f7bb7f566bd37672055bf84364bcf5f1c22b20e764a89c344",
+    "gan_model.pt": "3791492449602508e4c69fd6dc8d04b49b1487ccc4a14ee8b12c173b443ece19",
+    "gan_model_lstm_fixed.pt": "14bf5969d62f4f3188c3cfa03f219db8c4d98289d057da92fb2dcdfe48ce1a24"
+  },
+  "completed_at_utc": "2026-10-05T09:58:49.362929+00:00",
+  "tests": "79 passed, 2 expected failures",
+  "gan_retrained": false,
+  "seed": 42,
+  "n_synthetic_paths": 1000,
+  "n_rules": 500,
+  "n_common_valid_rules": 484,
+  "source_hashes": {
+    "pipeline/02_baselines.py": "020de6393052c15e86c38575392d1d00682817cc19c673e174944d503691e843",
+    "pipeline/05_evaluation.py": "7b66ab4507b2f0f83cea382e50727ec653b3a69b73ae230d1c581dce3f4b8feb",
+    "pipeline/07_walkforward_baseline.py": "19c5d4f2211107428a09ec653aea33eb7e382ae4d840c9587658d84cc7cf2c5f",
+    "pipeline/10_distinct_rule_rq2.py": "6aa1586734efb9703000915fded1f0d2ff90ceabeb2b67833a3ffaf26d488eef",
+    "pipeline/11_report_figures.py": "b49d5f49efb8699a9772c8cbf2918d430693bf4f4eefcb55780841185b5f1bce",
+    "pipeline/12_paired_rank_tests.py": "bd0fd6f02b746b69a259b51458237b9780c6116fe13342efe203136505467b70",
+    "pipeline/15_refresh_report_tables.py": "daad4b81f636ba166326b50c7089dc949cbf38a31a21ad9340f7332da386d035",
+    "tests/test_known_defects.py": "2b82a4aed0062fe1284f978c63a03d3df0c2f732dabe8a4ba6543c60a6b1e708",
+    "tests/test_baselines.py": "5a469571fdab59b0dbccb6b099a8afffebdb5fd1160954569efecf25f3e0d838"
+  },
+  "output_hashes": {
+    "outputs/evaluation_results.csv": "4ed526327a70bca86d4d40b35e35dab084598751d63c25fcc6f944119eb1d9ce",
+    "outputs/evaluation_results_lstm.csv": "9690a31e56d4183ca8c22e49499064136421f9d935056653909fcf20ca67bd3c",
+    "outputs/evaluation_summary.json": "0973ed01e828fa8008513021ce5e53544457f90fefa6ac3522603e1b48e2fdff",
+    "outputs/evaluation_summary_lstm.json": "73944e8818fcc413365983fb261f8c640a7e00737c70429d2951f1f0b21443fc",
+    "outputs/fidelity_metrics_summary.json": "494741ee99503f621529c49576768f9eb8ece6f5392e74918acb0a42a2e749e1",
+    "outputs/fidelity_results.csv": "8f9548badb01efc4126f0b78d899561775d55c2cec8c77954c834fd04c48a33c",
+    "outputs/garch_parameters.json": "116442830686dcfca14097317d3fe9f3b87f46f7d19c27f11efc1f5f02f0058e",
+    "outputs/paired_rank_tests.json": "77b6e424f0f0745191dce0931311185acd1f558aa221c0339fb5fd303f34b63c",
+    "outputs/rq2_distinct_rules.json": "cf37c74b4d57e7594d17f953009785ef4f636fa012062a8b869689befb11ee75",
+    "outputs/walkforward_baseline.json": "590685d5bb7a6d1a48ca7cd6b1f78d07b06e0f2553adc8cd39a3e7373e90865c",
+    "outputs/walkforward_comparison.csv": "40611a62523642fb50ddfacbbd97894f42d585e0975bdf5f0174a1bdee30813a",
+    "outputs/walkforward_results.json": "3c70cfa18df2cc0cd939db716f290ffcfa3ab655c6ec2f4ef12ccb4911897e06",
+    "outputs/data_description.json": "ed198914c3cb572091e657aa175ce52c0f31ce447fa065a05974e17a30e42926",
+    "outputs/gan_training_history.json": "89b58191fe9f0c23e712c41d5265188e4cb45773afcfd216d367a0f8b8ddd52f",
+    "outputs/gan_training_summary.json": "c7d3934c20256bf524c90b451b740532117c793f97f8e92b365f637aecc77dbf",
+    "outputs/figures/fig_rank_scatter.png": "7c0420079365832b6888d6a00c084a37f23efc934720bdab535d26dcea3abdaa",
+    "outputs/figures/fig_example_paths.png": "88c9b54be661ad9b4bbddadd08c208cc504d6e9ff4335e8a8aecac96be389e06",
+    "outputs/figures/fig_rho_distinct.png": "7857566b11b582716284864105c19522c2fa7a593e5b2556a7d3c9d80a2c0eb3"
+  }
+}
